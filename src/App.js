@@ -11,7 +11,7 @@ import { useReducer } from "react";
 import { FavoritesContext } from "./store/Favorites/context";
 import { initialState, favoritesReducer } from "./store/Favorites/reducer";
 
-// Definim rutele, similar cu ce am facut la sedinta 32.
+// Definim rutele, similar cu ce am facut la sedinta React - Routing.
 const router = createBrowserRouter([
   {
     path: "/",
@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       {/* Pasam state-ul global si dispatch-ul catre intreaga aplicatie. */}
       <FavoritesContext.Provider value={favoritesContextValue}>
-        {/* Adaugam providerul de rutare, similara cu ce am facut la sedinta 32. */}
+        {/* Adaugam providerul de rutare, similara cu ce am facut la sedinta React - Routing. */}
         <RouterProvider router={router} />
       </FavoritesContext.Provider>
     </div>

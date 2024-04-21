@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-// Hook-ul useFetch este cel facut la sedinta 35.
+// Hook-ul useFetch este cel facut la sedinta Custom Hooks.
 export function useFetch(url) {
   const [data, setData] = useState(null);
   useEffect(() => {
