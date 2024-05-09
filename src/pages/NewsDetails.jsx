@@ -42,7 +42,7 @@ function NewsDetails() {
 
   return (
     <Layout>
-      <Container className="NewsDetails my-5">
+      <Container className="newsDetails my-5">
         <Row className="d-flex justify-content-center">
           <Col xs={12} lg={8}>
             <h1 className="pt-3 mb-5">{title}</h1>
